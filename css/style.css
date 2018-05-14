@@ -1,0 +1,59 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+table {
+  table-layout: fixed;
+  border-collapse: collapse;
+  margin: 12px;
+}
+
+td {
+  vertical-align: top;
+  text-align: center;
+}
+
+keymap {
+  display: inline-block;
+  text-align: center;
+  border-radius: 3px;
+  padding: 4px;
+  margin: 4px;
+  box-shadow: 1px 1px 1px 1px #cccccc;
+}
+
+keymap label {
+  display: block;
+  font-size: 12px;
+  margin-top: 4px;
+}
+
+key {
+  display: inline-block;
+  border: 1px solid #9E9E9E;
+  border-radius: 3px;
+  padding: 2px 4px;
+  font-size: 12px;
+  font-family: monospace;
+  box-shadow: 1px 1px #9E9E9E;
+  background-color: white;
+}
+
+key.input {
+  border-style: dashed;
+  color: #636363;
+}
+
+.green {
+  background-color: #dcf0dd;
+}
+
+.blue {
+  background-color: #d5eafd;
+}
+
+.yellow {
+  background-color: #fffcdb;
+}
