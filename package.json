@@ -1,0 +1,48 @@
+{
+  "name": "cheatsheets",
+  "version": "0.0.0",
+  "description": "Some cheatsheets",
+  "main": "lib/index.js",
+  "private": true,
+  "scripts": {
+    "dev": "webpack-dev-server",
+    "build": "rm -fr docs && webpack -p"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:qiushihe/cheatsheets.git"
+  },
+  "keywords": [
+    "cheat",
+    "sheets"
+  ],
+  "author": "Billy He <billy.he@gmail.com>",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/qiushihe/cheatsheets/issues"
+  },
+  "homepage": "https://github.com/qiushihe/cheatsheets#readme",
+  "devDependencies": {
+    "@babel/core": "^7.0.0-beta.46",
+    "@babel/plugin-proposal-object-rest-spread": "^7.0.0-beta.47",
+    "@babel/plugin-syntax-jsx": "^7.0.0-beta.47",
+    "@babel/plugin-syntax-object-rest-spread": "^7.0.0-beta.47",
+    "@babel/preset-env": "^7.0.0-beta.46",
+    "@babel/preset-react": "^7.0.0-beta.46",
+    "babel-loader": "^8.0.0-beta.0",
+    "babel-plugin-module-resolver": "^3.1.1",
+    "babel-plugin-provide-modules": "^1.0.3",
+    "classnames": "^2.2.5",
+    "css-loader": "^0.28.11",
+    "html-webpack-plugin": "^3.2.0",
+    "lodash": "^4.17.10",
+    "prop-types": "^15.6.1",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2",
+    "style-loader": "^0.21.0",
+    "styled-components": "^3.2.6",
+    "webpack": "^4.8.3",
+    "webpack-cli": "^2.1.3",
+    "webpack-dev-server": "^3.1.4"
+  }
+}
